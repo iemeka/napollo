@@ -1,0 +1,63 @@
+.testim-wrap{
+  color: white;
+  background-color: black;
+  min-height: 550px;
+}
+
+.testim-wrap .title{
+  text-align: center;
+}
+
+.testim-wrap .title h1{
+  color: #f68126;
+  font-size: 3.5rem;
+  padding:40px 0px;
+
+}
+
+.testim-wrap .testimonies{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testim-wrap .story{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color: #1a1a1a;
+  position: relative;
+  border-radius: 10px;
+  margin: 6px;
+
+
+}
+
+.testim-wrap .story .about-story{
+  position: absolute;
+  bottom: -25px;
+  right:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 1;
+}
+
+.testim-wrap .story .img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-image: url(../assets/img/man.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.testim-wrap .story .mark{
+  color: #f68126;
+  margin-top: 5px;
+}

@@ -1,0 +1,73 @@
+.expansion-wrap{
+  color: #fff;
+  background-color: #000;
+  padding-right:200px;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../assets/img/map.png);
+  background-position-y: center;
+  background-position-x: 20%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 800px;
+}
+
+
+.expansion-wrap .in-wrap{
+  max-width: 500px;
+  margin-right: 50px;
+}
+
+.expansion-wrap .title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 170px;
+  margin-bottom: 60px;
+}
+.expansion-wrap .title h1{
+  font-size: 3.5rem;
+  color: #f68126;
+}
+
+.expansion-wrap .title p{
+  font-size: 1rem;
+  color: #e2dfdc;
+  letter-spacing: 1px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+.expansion-wrap .body .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expansion-wrap .row .img{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  margin-left: 20px;
+  background-image: url(../assets/img/man.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(68, 64, 64);
+}
+
+.expansion-wrap .row span{
+  font-weight: bold;
+}
+
+.expansion-wrap .row .details{
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  ;
+}
+
+.expansion-wrap .details span{
+  font-weight: normal;
+  color: #92918f;
+}

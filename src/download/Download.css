@@ -1,0 +1,61 @@
+.download-wrap {
+  min-height: 450px;
+  color: #fff;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 150px;
+  background-image: url(../assets/img/download.png);
+  background-position-y: top;
+  background-position-x: 10%;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  padding-bottom: 50px;
+}
+
+.download-wrap .in-download {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.download-wrap .in-download h1 {
+  color: #f68126;
+  font-size: 4rem;
+}
+
+.download-wrap .in-download h1 span {
+  color: #fff;
+}
+
+.download-wrap .in-download p {
+  max-width: 400px;
+  color: #e7e3e3;
+}
+
+.download-wrap .in-download .imgs {
+  display: flex;
+}
+
+.download-wrap .in-download .img-google,
+.download-wrap .in-download .img-apple {
+  width: 120px;
+  height: 40px;
+  background: url("../assets/img/apple.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-wrap .in-download .img-google {
+  background: url("../assets/img/google.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}

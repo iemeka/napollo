@@ -1,0 +1,88 @@
+.foot-wrap {
+  color: white;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 300px;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.foot-wrap .first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-wrap .first .logo {
+  height: 100px;
+  width: 100px;
+  background-image: url(../assets/img/llog.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.foot-wrap .first p {
+  margin-bottom: 20px;
+}
+
+.foot-wrap .first ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.foot-wrap .second {
+  display: flex;
+  flex-direction: row;
+}
+
+.foot-wrap .second ul {
+  margin-right: 40px;
+}
+
+.foot-wrap .second li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.foot-wrap .third ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-wrap .third li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.foot-wrap .third .img{
+  display: flex;
+  flex-direction: row;
+}
+
+.foot-wrap .third .img-google,
+.foot-wrap .third .img-apple {
+  width: 100px;
+  height: 40px;
+  background: url("../assets/img/apple.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.foot-wrap .third .img-google {
+  background: url("../assets/img/google.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+
