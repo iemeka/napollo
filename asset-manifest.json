@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/napollo/static/css/main.4e418e11.chunk.css",
+    "main.js": "/napollo/static/js/main.c352a4bf.chunk.js",
+    "main.js.map": "/napollo/static/js/main.c352a4bf.chunk.js.map",
+    "runtime-main.js": "/napollo/static/js/runtime-main.12735819.js",
+    "runtime-main.js.map": "/napollo/static/js/runtime-main.12735819.js.map",
+    "static/js/2.016e3284.chunk.js": "/napollo/static/js/2.016e3284.chunk.js",
+    "static/js/2.016e3284.chunk.js.map": "/napollo/static/js/2.016e3284.chunk.js.map",
+    "index.html": "/napollo/index.html",
+    "static/css/main.4e418e11.chunk.css.map": "/napollo/static/css/main.4e418e11.chunk.css.map",
+    "static/js/2.016e3284.chunk.js.LICENSE.txt": "/napollo/static/js/2.016e3284.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/napollo/static/media/google.583d80df.png",
+    "static/media/Listen.css": "/napollo/static/media/casset.23a55861.png",
+    "static/media/Download.css": "/napollo/static/media/download.e7310af1.png",
+    "static/media/Plan.css": "/napollo/static/media/white.255f1385.png",
+    "static/media/About.css": "/napollo/static/media/logo.40b6b837.png",
+    "static/media/Testimonial.css": "/napollo/static/media/man.664ed3f3.png",
+    "static/media/Expansion.css": "/napollo/static/media/map.1731781f.png",
+    "static/media/Hot.css": "/napollo/static/media/phone.67d25932.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12735819.js",
+    "static/js/2.016e3284.chunk.js",
+    "static/css/main.4e418e11.chunk.css",
+    "static/js/main.c352a4bf.chunk.js"
+  ]
+}
